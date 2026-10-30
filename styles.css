@@ -1,0 +1,28 @@
+body
+{
+    display :flix;
+    justify-content:center;
+    align-items:100vh;
+    
+}
+.card
+{
+    width : 40%;
+    background-color: bisque;
+    padding :30px;
+    text-align:center;
+}
+@media(max-width:320px) and (max-width: 480px)
+{
+.card{
+         width:70%;
+         background-color:red;
+    }
+}
+@media(max-width:800px) and (max-width:above)
+{
+    .box{
+    background-color:green;
+    }
+
+}
